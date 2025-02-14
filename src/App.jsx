@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/ReactLandingPage" element={<Home />} />
+        <Route path="/ReactLandingPage/" element={<Home />} />
         <Route path="/ReactLandingPage/about" element={<About />} />
         <Route path="/ReactLandingPage/contact" element={<Contact />} />
         <Route path="/ReactLandingPage/login" element={<Login />} />
